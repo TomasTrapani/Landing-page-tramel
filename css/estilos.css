@@ -1,0 +1,403 @@
+* {
+    color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: solid;
+    font-family: 'Barlow',sans-serif;
+}
+
+html, body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    top: 0%;
+    height: 100px;
+    background-color: #c2bbbb;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    margin: 0;
+    padding: 0%;
+}
+
+.tituloPrincipal {
+    position: relative;
+    left: 105px;
+    font-family: 'Barlow',sans-serif;
+    font-size: 2.5rem;
+    margin: 0;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+}
+
+.navegacion {
+    list-style: none;
+    padding-right: 30px;
+    padding-top: 12px;
+    font-weight: bold;
+}
+
+    
+
+
+.links {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 30px;
+    align-items: center;
+    transition: all 1s;
+    transition-timing-function: linear;
+}
+.links:hover{
+    color: #000;
+}
+.logo {
+    display: fixed;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    height: 80px;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 100px;
+    padding-top: 0px;
+    text-align: center;
+    background-color: white;
+    justify-content: center;
+}
+
+.tienda {
+    margin-top: 50px;
+    margin-bottom: 150px;
+    padding: 0;
+    align-items: center;
+}
+.servicios{
+    margin: 0;
+    padding: 0;
+}
+.servicios h2{
+    font-family: 'Barlow',sans-serif;
+}
+.nosotros {
+    display:inline-block;
+    flex-direction: row;
+    margin: 0;
+}
+.fotoitem{
+    padding: 20px;
+    display: inline-block;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+}
+.fotoitem img{
+    text-align: center;
+    margin-top: 20px ;
+    height: 143px;
+    width: 143px;
+}
+.fotoitem p{
+    text-align: center;
+    display: block;
+    margin-top: 0;
+    box-sizing: border-box;
+    overflow-wrap:break-word ;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi:isolate ;
+}
+
+.navegacion1 {
+    position: absolute;
+    top: 800px;
+    right: 20%;
+}
+
+
+.verTodosLosProductos {
+    color: #a1998a;
+    font-size: 1.3vw;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(199, 193, 193);
+    display: block;
+    border: 1px solid #000;
+    cursor: pointer;
+    padding: 12px 22px;
+    font-family: 'Barlow',sans-serif;
+    margin: 0;
+    animation: mover-derecha 1s ease-in;
+    animation-delay: 0s;
+    transition: all 500ms;
+    transition-timing-function: linear;
+}
+.verTodosLosProductos:hover{
+    background-color:#e2dfd8;
+}
+
+@keyframes mover-derecha {
+     0%{
+    transform: translateX(-100px);
+   }
+   100%{
+    transform: translateX(0px);
+   }
+}
+
+.asside {
+    padding: 0;
+    margin-top: 20px;
+    align-items: center;
+}
+
+h2 {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+.foto-llegada {
+    margin-top: 0%;
+    padding: 0%;
+
+}
+
+.foto-llegada p {
+    position: absolute;
+    top: 300px;
+    left: 55%;
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+    color: #a1998a;
+    animation: mover-derecha 1s ease-in;
+    animation-delay: 0s;
+}
+@keyframes mover-derecha {
+   0%{
+    transform: translateX(-70px);
+   } 
+   100%{
+    transform: translateX(0px);
+   }
+}
+
+
+
+.foto-llegada img {
+    width: 100%;
+    height: 850px;
+    display: block;
+}
+
+.fotos {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.item img {
+    height: 400px;
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+    transition: all 1s;
+    transition-timing-function:linear;
+}
+.item:hover{
+    font-size: 23px;
+}
+
+
+.item a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.tituloVideo {
+    margin-top: 30px;
+}
+
+.titulo {
+    color: white;
+    font-size: xx-large;
+}
+
+.dias th, .dias td {
+    border: solid;
+    border-color: black;
+    border-width: 3px;
+    height: px;
+    width: 100px;
+    color: white;
+}
+
+.tabla {
+    margin: 0 auto;
+    border-width: 5rem;
+    margin-top: 3rem;
+    width: 100%;
+    max-width: 600px;
+    border: solid;
+    border-color: black;
+    background-color: #d4cfcf;
+}
+
+footer {
+    background-color: #afafaf;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+footer img {
+    height: 80px;
+    width: 80px;
+}
+
+h2 {
+    color: #afafaf;
+    margin: 0 auto;
+    margin: 15px 20px 25px 30px;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+}
+
+main {
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #afafaf;
+    font-size: 60px;
+}
+
+.contacto {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    padding: 0%;
+}
+
+.contactome {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contactix{
+    margin-top: 100px;
+}
+p {
+    color: black;
+    margin: 15px 20px 25px 30px;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+ul {
+    display: block;
+    font-weight: bolder;
+}
+
+li {
+    color:#afafaf;
+    font-size: 30px;
+}
+
+.papeles {
+    display: inline-block;
+    margin-bottom: 50px;
+
+  
+}
+
+.productos p {
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+
+.productos h3 {
+    font-family: 'Barlow',sans-serif;
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-top: 110px;
+    color: #c2bbbb;
+}
+.papeles a{
+    margin-bottom: 10px;
+    border-width: 100%;
+}
+
+.telefono {
+    margin: 0 auto;
+}
+.masinfo{
+    border: 2px black solid;
+    padding: 12px 22px;
+    color: #a1998a;
+    background-color: rgb(199, 193, 193);
+}
+
+.iconoWsp {
+    position: fixed;
+    display: flex;
+    bottom: 2%;
+    left: 95%;
+    transition: all 1s;
+    transition-timing-function: linear;
+}
+.iconoWsp:hover {
+    border-radius: 50%;
+    background-color: #d4cfcf;
+
+    
+    
+}
+.iconoWsp img {
+    height: 60px;
+    width: 60px;
+}
+
+.bolsas {
+    margin-bottom: 20px;
+}
+
+.papeles a {
+    color: white;
+}
